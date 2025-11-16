@@ -1,0 +1,68 @@
+    1  lsb_release -a
+    2  sudo apt update && sudo apt upgrade -y
+    3  sudo apt dist-upgrade -y
+    4  sudo apt autoremove -y
+    5  sudo do-release-upgrade
+    6  cat /etc/update-manager/release-upgrades
+    7  sudo nano /etc/update-manager/release-upgrades
+    8  clear
+    9  sudo reboot
+   10  lsb_release -a
+   11  sudo apt autoremove --purge -y
+   12  sudo apt clean
+   13  sudo apt update && sudo apt upgrade -y
+   14  sudo apt dist-upgrade -y
+   15  sudo apt autoremove -y
+   16  sudo do-release-upgrade
+   17  sudo apt update && sudo apt upgrade -y
+   18  sudo apt dist-upgrade -y
+   19  sudo apt autoremove -y
+   20  sudo do-release-upgrade -d
+   21  lsb_release -a
+   22  sudo do-release-upgrade -d
+   23  sudo reboot
+   24  sudo do-release-upgrade -d
+   25  sudo apt update && sudo apt upgrade -y
+   26  sudo apt dist-upgrade -y
+   27  sudo apt autoremove -y
+   28  sudo apt update && sudo apt upgrade -y
+   29  sudo apt dist-upgrade -y
+   30  sudo apt autoremove -y
+   31  sudo apt update && sudo apt upgrade -y
+   32  sudo apt dist-upgrade -y
+   33  sudo apt autoremove -y
+   34  sudo apt update && sudo apt upgrade -y
+   35  sudo apt dist-upgrade -y
+   36  sudo apt autoremove -y
+   37  sudo apt update && sudo apt upgrade -y
+   38  sudo apt dist-upgrade -y
+   39  sudo apt autoremove -y
+   40  lsb_release -a
+   41  sudo apt update && sudo apt upgrade -y
+   42  sudo apt dist-upgrade -y
+   43  sudo apt autoremove -y
+   44  sudo do-release-upgrade -d
+   45  sudo apt update && sudo apt upgrade -y
+   46  sudo apt dist-upgrade -y
+   47  sudo apt autoremove -y
+   48  sudo nano /etc/update-manager/release-upgrades
+   49  sudo do-release-upgrade -d
+   50  sudo reboot
+   51  lsb_release -a
+   52  sudo do-release-upgrade -d
+   53  sudo do-release-upgrade
+   54  lsb_release -a
+   55  sudo apt update && sudo apt upgrade -y
+   56  sudo apt dist-upgrade -y
+   57  sudo apt autoremove -y
+   58  sudo do-release-upgrade
+   59  git clone https://github.com/tsally-MSIS/JenkinsPipeline.git
+   60  git remote remove origin
+   61  git remote add origin git@github.com:tsally-MSIS/JenkinsPipeline.git
+   62  git branch -m main
+   63  git push -u origin main
+   64  docker exec -it jenkins bash
+   65  docker exec -it jenkins -u root bash
+   66  docker exec -it -u root jenkins bash
+   67  curl -s -H "Athorization: Bearer Mjc4MjY3ODEtOWMxZi00NDNkLTlkMDQtOWIyYTI0NTE4OGEyMDczNGE2MmEtZGYx_P0A1_e58072af-9d57-4b13-abf7-eb3b506c964d" https://webexapis.com/v1/rooms | jq
+   68  history >> history.txt
